@@ -1,0 +1,17 @@
+{
+	"name": "techknowlogick/php-conduit",
+	"description": "SDK for Phabricator's Conduit API",
+	"type": "library",
+	"license": "MIT",
+	"keywords": ["phabricator","conduit"],
+	"homepage" : "https://github.com/techknowlogick/php-conduit",
+	"require": {
+        "php": ">=5.4.0",
+        "lib-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Techknowlogick\\Phabricator\\": "src/"
+        }
+    }
+}
